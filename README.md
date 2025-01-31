@@ -1,3 +1,4 @@
-# alu-shell
-My name is Rowan
-I didnt know this work existed
+#!/bin/bash
+pwd
+read OUTPUT
+echo "$OUTPUT"
