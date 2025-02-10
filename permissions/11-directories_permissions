@@ -1,2 +1,2 @@
 #!/bin/bash
-for item in */ do if [ -d "$item" ] then chmod +755 "$item" fi done
+for item in */ do if [ -d "$item" ] then chmod 755 "$item" fi done
