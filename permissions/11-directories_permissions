@@ -1,2 +1,2 @@
 #!/bin/bash
- chmod -R a+x /alu-shell/permissions
+ chmod -R a+x .
