@@ -1,2 +1,2 @@
 #!/bin/bash
-touch \\*\\\\\'\"Best School\"\\\'\\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*:\\\)| echo "Best School" > \*\\'"Best School"\'\\*$\?\*\*\*\*\*:\)
+escaped_string="\*\\'\"Best School\"\\'\\*\$\\?\\*\*\*\*\*:)"|touch "$escaped_string"|echo "Best School" > "$escaped_string"
