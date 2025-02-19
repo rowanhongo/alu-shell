@@ -1,0 +1,2 @@
+#!/bin/bash
+while IFS= read -r line \ndo \nif ((i % 2 == 1)) \nthen \necho "$line" \nfi \n((i++)) \ndone
