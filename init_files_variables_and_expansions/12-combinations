@@ -1,2 +1,2 @@
 #!/bin/bash
-for i in {a..z} do for j in {a..z} do export comb=$i$j if [ "$comb" != "oo" ] then printf "%s\n" "$comb" fi done done
+for i in {a..z} do for j in {a..z} do [ $i$j != oo ] \n echo $i$j done done
