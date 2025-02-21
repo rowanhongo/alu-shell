@@ -1,0 +1,2 @@
+#!/bin/bash
+tail -n +2 | while IFS=$'\t' read -r host _; do [[ -n "$host" ]] && echo "$host"; done | sort | uniq -c | sort -rn | head -11 | while read -r _ host; do echo "$host"; done
