@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt --time=modify --max-depth=1 | grep -v '/$' | head -n 10
+ls -tp | grep -v / | head -n 10
